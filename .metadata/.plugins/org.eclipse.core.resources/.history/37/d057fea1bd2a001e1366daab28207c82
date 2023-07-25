@@ -1,0 +1,8 @@
+
+server.port=8181
+
+# local database
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/spring?serverTimezone=Asia/Seoul
+spring.datasource.username=spring
+spring.datasource.password=spring

@@ -8,5 +8,91 @@
 	
 	타임리프 뷰
 	
+	<button id="getData">겟방식</button>
+	
+	<button id="getJSON">포스트방식</button>
+	
+	<button id="getV1Data">실습1</button>
+	
+	<button id="getV1Info">실습1</button>
+	
+	<button id="getFetch">선생님풀이</button>
+	
+	<button id="getFetch2">선생님풀이</button>
+	
+	<script>
+		/////////////
+		let getData = document.getElementById("getData");
+		getData.onclick = () => {
+			
+			fetch("/getData?sno=1&first=홍길동")
+			.then( response => response.json() )
+			.then( t => console.log(t) );
+			
+		}
+		
+		/////////////
+		let getJSON = document.getElementById("getJSON");
+		getJSON.onclick = () => {
+			
+			fetch("/getJSON", {
+				method :"post",
+				headers : {
+					"Content-Type" : "application/json"
+				},
+				body : JSON.stringify({"son": "1", "first":"홍길동", "last" :"이순신"})
+			})
+			.then( response => response.json() )
+			.then( t => console.log(t) )
+		}
+		
+		///////////////실습 내풀이
+		let getV1Data = document.getElementById("getV1Data");
+		getV1Data.onclick = () => {
+			
+			fetch("/api/v1/getData?num=1&name=화이팅")
+			.then( response => response.json() )
+			.then( t => console.log(t))
+		}
+		
+		let getV1Info = document.getElementById("getV1Info");
+		getV1Info.onclick = () => {
+			
+			fetch("/api/v1/getInfo", {
+				method : "post",
+				headers : {
+					"Content-Type" : "application/json"
+				},
+				body : JSON.stringify({"num" : "1", "name" : "오리"})
+			})
+			.then( response => response.json() )
+			.then( t => console.log(t))
+		}
+		
+		
+		////////선생님 풀이
+		let getFetch = document.getElementById("getFetch");
+		getFetch.onclick = () => {
+			fetch("http://localhost:8181/api/v1/getData/7/하하")
+			.then( response => response.json() )
+			.then( t => console.log(t))
+		}
+		
+		let getFetch2 = document.getElementById("getFetch2");
+		getFetch2.onclick = () => {
+			
+			fetch("http://localhost:8181/api/v1/getInfo", {
+				method : "post",
+				headers : {"Content-Type" : "application/json"},
+				body : JSON.stringify({"num" : "9", "name" : "호랑이"})
+			})
+			.then( response => response.json() )
+			.then( t => console.log(t))
+		}
+		
+		
+		
+	</script>
+	
 </body>
 </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	타임리프의 link구문 @{경로(키=값, 키=값)}
+	<ul>
+		<li th:each="vo : ${list}">
+			<a th:href="@{/view/result(sno=${vo.sno}, first=${vo.first}) }">[[${vo.first}]]</a>
+			<a th:href="@{/view/result02/{first}/{sno}(sno=${vo.sno}, first=${vo.first} ) }">URL파람</a>
+		</li>
+	</ul>
+	
+	<a href="/view/result02/홍길동/1">URL파람</a>
+	
+	
+	타임리프 block태그 (중괄호 역할	)
+	<ul>
+		<th:block th:each="vo : ${list}">
+		<li>[[${vo.first}]]</li>
+		</th:block>
+	</ul>
+	
+	
+	타임리프 자바스크립트에서 참조하기 = 자바의 객체를 JSON형식으로 자동변환
+	<script th:inline="javascript">
+		var x = '[[${vo}]]';
+		console.log(JSON.parse(x));
+	</script>
+	
+	
+	<hr/>
+	타임리프 유틸리티 오브젝트 - 자바의 내장 함수를 타임리프에서 사용(구글검색)
+	<br/> 
+	[[ ${ #temporals.format(vo.regdate, 'yyyy년MM월dd일') } ]]
+	
+	리스트 크기 : [[ ${ #lists.size(list) } ]]
+	
+	
+	
+	
+</body>
+</html>

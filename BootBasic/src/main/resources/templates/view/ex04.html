@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	타임리프 인클루드<br/>
+	replace 경로 참조시는 ~{경로 :: 이름}
+	<div th:replace="~{/include/layout01 :: part1}"></div>
+	
+	<th:block th:replace="~{/include/layout01:: part2}"></th:block>
+
+	<h3>파일을 통째로 가져오기</h3>
+	<th:block th:replace="~{/include/layout02}"></th:block>
+</body>
+</html>

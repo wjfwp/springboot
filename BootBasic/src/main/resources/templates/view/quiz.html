@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	
+	<h3>이 화면에 진입할 때 SimpleVO를 이용하여 화면처리를 합니다.</h3>
+	<p>
+		회원정보확인 링크에는 quiz_result01?키=값 형태로
+		회원번호, 이름(성 + 이름)을 넘겨주세요
+
+		아래 class="container" 부분만 layout03 템플릿에 전달 될 수 있도록 처리하세요
+	</p>
+
+	<th:block th:replace="~{/include/layout03 :: 함수명( ~{:: .container} ) }">
+	<div class="container">
+			번호:[[${vo.sno}]] <br>
+			이름:[[${vo.first + vo.last}]]<br>
+			날짜:[[${ #temporals.format(vo.regdate, 'yyyy년MM월dd일') }]] <br>
+			<a th:href="@{/view/quiz_result01(sno=${vo.sno}, name=${vo.first + vo.last})}">이동</a>
+	</div>
+	</th:block>
+	
+</body>
+</html>

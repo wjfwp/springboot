@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	타임리프 기초문법
+	
+	<h3 th:text="${'hello world'}"></h3>
+	<h3>[[${'hello world'}]]</h3>
+	
+	<h3>[[${ 3 == 2}]]</h3>
+	<h3>[[${ 3> 10}]]</h3>
+		
+	<h3>[[${'가' == '나'}]]</h3>
+	<h3>[[${'가' eq '가'}]]</h3>
+	
+	<h3>[[${true and true}]]</h3>
+	<h3>[[${false && true}]]</h3>	
+	
+	타임리프 변수선언
+	<div th:with="a=10, b=20">
+		[[${a}]]
+		[[${b}]]
+	</div>
+	
+	인풋태그의 값 표현 (타임리프 문법을 속성에서 쓰고싶다면 th를 붙임)
+	<input type="text" th:value="${'홍길동'}">
+	
+	
+</body>
+</html>

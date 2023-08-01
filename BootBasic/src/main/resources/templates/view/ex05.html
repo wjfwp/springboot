@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	
+<!-- ~{경로 :: 함수명( ~{내파일의::선택자} ) }-->
+<th:block th:replace="~{/include/layout03 :: 함수명( ~{:: #wrap} ) }">
+	
+	<div class="wrap">
+		템플릿에 전달된 화면 클래스인 경우 .
+	</div>
+	
+	<div id="wrap">
+		템플릿에 전달될 화면 id인경우 #
+	</div>
+	
+	
+</th:block>
+
+
+<h3>th:block태그 바깥</h3>
+
+
+<script>
+	console.log('화면에서 사용할 js는 바깥에 기재')
+</script>
+
+</html>

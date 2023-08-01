@@ -1279,3 +1279,2751 @@ java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protoco
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:24:25.091
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:26:03.232
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:28:14.295
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:33:04.189
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:35:11.267
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:35:15.445
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:35:59.958
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:37:55.168
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:42:19.985
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:43:11.359
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:47:06.497
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 09:49:51.825
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:11:51.815
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:12:12.782
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:35:37.606
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:35:58.814
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:38:26.185
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:40:43.778
+!MESSAGE Classpath changed for project: BootBasic
+!SESSION 2023-07-26 10:45:38.003 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-07-26 10:45:38.680
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-07-26 10:45:40.570
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-26 10:45:40.570
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2023-07-26 10:45:42.650
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-26 10:45:42.650
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-26 10:45:42.797
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:45:42.957
+!MESSAGE Boot project ADDED: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:45:42.958
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:45:42.976
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-26 10:45:42.987
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user/Desktop/course/springboot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1690335942987
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:45:42.988
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-26 10:45:42.995
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15208
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-26 10:45:43.016
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:47:59.976
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:48:26.042
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:49:35.258
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 10:51:03.358
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:22:10.743
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:24:48.384
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:40:50.167
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:41:29.080
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:42:27.161
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:43:23.342
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:45:01.097
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 11:48:24.831
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 12:14:39.552
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 12:18:40.397
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 12:21:23.684
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 12:33:46.202
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 12:44:32.945
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:08:33.736
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 14:25:55.874
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:14:50.852
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:22:50.269
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:44:53.806
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:45:38.875
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 15:49:16.344
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:05:31.459
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:08:49.649
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:11:01.220
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:11:15.494
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:15:32.790
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:16:00.033
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:16:43.838
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:42:12.248
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:42:30.043
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:42:51.715
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:47:52.718
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:49:05.358
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:49:57.310
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-26 16:50:18.220
+!MESSAGE Classpath changed for project: BootBasic
+!SESSION 2023-07-27 08:31:02.360 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-07-27 08:31:05.289
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-07-27 08:31:21.391
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-27 08:31:21.391
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-27 08:31:26.097
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user/Desktop/course/springboot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1690414286096
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 08:31:26.097
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-27 08:31:26.125
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15220
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-27 08:31:26.347
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jface 2 0 2023-07-27 08:31:26.482
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-27 08:31:26.482
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-27 08:31:26.655
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 08:31:26.810
+!MESSAGE Boot project ADDED: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 08:31:26.811
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 08:31:26.812
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 09:51:50.998
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 09:51:51.440
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 09:51:51.991
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:10:58.498
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:12:33.961
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:13:31.121
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:16:26.974
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:17:43.498
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:19:38.988
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:21:10.955
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:21:19.494
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:21:53.257
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:22:14.688
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:22:21.194
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:23:32.295
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:23:53.149
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:28:07.602
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:32:11.028
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:34:21.391
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:34:51.851
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:38:07.718
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:41:28.167
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:42:54.419
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:43:26.205
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:43:40.425
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:43:54.668
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:46:45.360
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:47:30.172
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 10:53:52.638
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:11:44.140
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:12:10.570
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:15:33.976
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:17:04.018
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:17:09.945
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:22:06.754
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:22:16.064
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:26:11.714
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:35:17.292
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:38:55.813
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:39:13.965
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:41:11.935
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:42:40.876
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:43:00.142
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:44:32.654
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:45:00.072
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:47:20.435
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:49:08.417
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 11:51:51.999
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:01:57.587
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:02:11.670
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:03:05.061
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:03:07.138
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:05:42.928
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:07:41.006
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:09:20.086
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:10:54.505
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:12:06.368
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:42:21.723
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:42:23.248
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 12:42:23.711
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-27 12:44:26.216
+!MESSAGE Could not get trigger characters due to timeout after 50 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:280)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:316)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:374)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4865)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:06:10.956
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:07:09.477
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:07:09.477
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:07:09.478
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:07:09.479
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:07:09.483
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:07:09.485
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:07:21.081
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:11:07.722
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:12:14.558
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:14:21.239
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:21:18.630
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:21:19.029
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:43:20.199
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:43:20.985
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:43:20.985
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:43:20.986
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:43:20.986
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:43:20.990
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:43:20.992
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-27 14:43:32.388
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:46:12.609
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:46:12.617
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:46:12.618
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:46:12.619
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:46:12.619
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:46:12.623
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:46:12.624
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:47:09.060
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:09.071
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:09.071
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:09.072
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:09.072
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:09.075
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:09.077
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:47:22.315
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:22.322
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:22.323
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:22.323
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:22.324
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:22.327
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:22.328
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:47:37.384
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:37.391
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:37.392
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:37.392
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:37.392
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:37.395
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:47:37.399
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:48:11.916
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:48:11.916
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:48:11.916
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:48:11.917
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:48:11.920
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-27 14:48:11.922
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:51:38.253
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:52:33.567
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:52:51.842
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:53:40.287
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:53:44.368
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:55:03.561
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 14:57:14.788
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:10:37.961
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:11:37.246
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:13:00.652
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:13:58.010
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:24:31.831
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:26:12.405
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:32:07.321
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:32:18.376
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:32:35.495
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:32:55.914
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:33:10.759
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:33:30.844
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:40:22.127
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:41:22.795
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:45:39.693
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:45:46.891
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:46:00.593
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:46:08.429
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 15:52:15.473
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:02:12.522
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:08:57.444
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:09:53.714
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:14:45.899
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:16:43.862
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:17:19.847
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:17:22.964
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:33:02.928
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:56:39.099
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 16:58:26.170
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:03:51.006
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:04:16.338
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:07:43.510
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:07:45.622
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:09:06.791
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:09:58.216
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:12:15.083
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:17:25.107
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:18:32.915
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:18:40.212
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:21:31.109
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-27 17:21:51.000
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-07-27 17:50:06.552
+!MESSAGE Failed to save JDT index: Index for /BootBasic/src/main/java
+!STACK 0
+java.io.FileNotFoundException: C:\Users\user\Desktop\course\springboot\workspace\.metadata\.plugins\org.eclipse.jdt.core\3198422350.index (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:81)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:631)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:533)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:230)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1156)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1200)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:838)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:494)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SESSION 2023-07-28 08:29:40.331 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-07-28 08:29:42.036
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-07-28 08:29:51.322
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-28 08:29:51.322
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-28 08:29:55.027
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user/Desktop/course/springboot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1690500595027
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 08:29:55.027
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-28 08:29:55.058
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 7576
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-28 08:29:55.296
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-28 08:29:55.425
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 08:29:55.543
+!MESSAGE Boot project ADDED: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 08:29:55.544
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 08:29:55.545
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:27:09.661
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:27:09.661
+!MESSAGE Boot project ADDED: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:27:09.932
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.jface 2 0 2023-07-28 09:27:48.381
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-28 09:27:48.381
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:32:38.128
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:33:20.956
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:34:59.759
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:34:59.958
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:48:34.804
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:51:21.425
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:51:30.647
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:53:21.462
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:54:17.634
+!MESSAGE Classpath changed for project: BootMyweb
+!SESSION 2023-07-28 09:56:37.812 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-07-28 09:56:39.224
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-07-28 09:56:47.418
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-28 09:56:47.418
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-28 09:56:50.447
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user/Desktop/course/springboot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1690505810446
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:56:50.447
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-28 09:56:50.458
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8376
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-28 09:56:50.477
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-28 09:56:50.786
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:56:50.936
+!MESSAGE Boot project ADDED: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:56:50.938
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:56:50.942
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:56:50.944
+!MESSAGE Boot project ADDED: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:58:07.697
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:58:07.698
+!MESSAGE Boot project REMOVED: BootMyweb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-07-28 09:58:07.704
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): BootMyweb does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2504)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2487)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-07-28 09:58:07.705
+!MESSAGE BootMyweb does not exist
+
+!ENTRY org.eclipse.ui 4 4 2023-07-28 09:58:07.745
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Cannot determine URI for '/BootMyweb/build.gradle'.
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3198)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3209)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:987)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:952)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:141)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:395)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:322)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1384)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1543)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1495)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1465)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1589)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4272)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:284)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:44)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommandInContext(LegacyHandlerService.java:440)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:140)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:57)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:452)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.DeleteAction.run(DeleteAction.java:196)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:655)
+	at org.eclipse.e4.ui.bindings.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:75)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1840)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5152)
+	at org.eclipse.swt.widgets.Tree.WM_KEYDOWN(Tree.java:6274)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6142)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/BootMyweb/build.gradle'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4177)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1474)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3167)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2344)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3184)
+	... 154 more
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2023-07-28 09:58:07.745
+!MESSAGE Cannot determine URI for '/BootMyweb/build.gradle'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/BootMyweb/build.gradle'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4177)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1474)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3167)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2344)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3184)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3209)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:987)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:952)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:141)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:395)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:322)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1384)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1543)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1495)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1465)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1589)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4272)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:284)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:44)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommandInContext(LegacyHandlerService.java:440)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:140)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:57)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:452)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.DeleteAction.run(DeleteAction.java:196)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:655)
+	at org.eclipse.e4.ui.bindings.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:75)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1840)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5152)
+	at org.eclipse.swt.widgets.Tree.WM_KEYDOWN(Tree.java:6274)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6142)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2023-07-28 09:58:07.746
+!MESSAGE Cannot determine URI for '/BootMyweb/build.gradle'.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:58:33.805
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:58:33.805
+!MESSAGE Boot project ADDED: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 09:58:34.040
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.jface 2 0 2023-07-28 09:58:40.896
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-28 09:58:40.896
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:00:53.912
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:00:54.118
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:05:18.755
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:05:18.756
+!MESSAGE Boot project REMOVED: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:06:46.052
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:06:47.592
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:06:47.593
+!MESSAGE Boot project ADDED: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:06:47.602
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:06:48.890
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 10:49:31.354
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-28 10:52:42.874
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:18:40.836
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:34:46.297
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:35:08.539
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:38:05.487
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:38:24.036
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:38:42.938
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:37.315
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:37.315
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:37.316
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:37.316
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:37.320
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:37.322
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:55.009
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:55.010
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:55.011
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:55.011
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:55.014
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 11:39:55.016
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-28 11:40:48.065
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-28 11:41:03.659
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:41:06.148
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:41:44.480
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:41:57.764
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:43:42.259
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:43:46.516
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:44:36.591
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:44:49.588
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:45:05.135
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:45:20.898
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:48:13.796
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:48:20.469
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:48:52.954
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:49:57.348
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 11:50:13.011
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 12:29:37.425
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 12:29:47.940
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 12:29:55.112
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 12:31:51.380
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 12:32:24.312
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 12:33:06.843
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 12:46:23.509
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 14:10:37.322
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 14:10:57.758
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 14:11:11.928
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 14:11:21.745
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 14:38:42.682
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 14:39:54.158
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 14:40:36.669
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:40:37.478
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:40:37.478
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:40:37.479
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:40:37.479
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:40:37.482
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:40:37.483
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:49:44.651
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:49:44.651
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:49:44.652
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:49:44.652
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:49:44.656
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-28 14:49:44.658
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:26:29.678
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:27:32.557
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:30:33.747
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:30:43.862
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:30:54.371
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:34:12.050
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:34:24.185
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:34:33.187
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:47:27.767
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:47:36.160
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-07-28 15:47:40.985
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): productUpdate(int) [in ProductMapper [in [Working copy] ProductMapper.java [in com.coding404.myweb.product.service [in src/main/java [in BootMyweb]]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:617)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:645)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:521)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:753)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:671)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:663)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:63)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-07-28 15:47:40.985
+!MESSAGE productUpdate(int) [in ProductMapper [in [Working copy] ProductMapper.java [in com.coding404.myweb.product.service [in src/main/java [in BootMyweb]]]]] does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:47:42.660
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:47:56.041
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:48:50.950
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:50:29.799
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:50:42.016
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:50:48.885
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:51:19.591
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:52:42.941
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:52:54.886
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-28 15:53:03.400
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:54:15.778
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 15:55:16.225
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-28 15:55:52.968
+!MESSAGE Marker id 779 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BootMyweb/src/main/resources/templates/product/productList.html)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-07-28 15:55:52.968
+!MESSAGE Marker id 779 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-28 15:55:52.968
+!MESSAGE Marker id 779 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BootMyweb/src/main/resources/templates/product/productList.html)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:970)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1048)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2107)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2786)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1971)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1977)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1904)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1443)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-07-28 15:55:52.969
+!MESSAGE Marker id 779 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:970)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1048)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2107)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2786)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1971)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1977)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1904)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1443)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:00:32.633
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:04:11.594
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:05:29.797
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:05:55.769
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:06:06.567
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:06:15.379
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:07:19.108
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:08:49.459
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-28 16:09:09.671
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:09:20.257
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:09:44.579
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:29:57.457
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:30:15.084
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:30:24.117
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:31:34.123
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-28 16:31:59.083
+!MESSAGE Classpath changed for project: BootMyweb
+!SESSION 2023-07-31 08:44:41.219 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-07-31 08:44:43.128
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-07-31 08:44:55.847
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-31 08:44:55.847
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-31 08:44:59.954
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user/Desktop/course/springboot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1690760699953
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 08:44:59.954
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-31 08:44:59.986
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15200
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-31 08:45:00.218
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-31 08:45:00.794
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 08:45:00.939
+!MESSAGE Boot project ADDED: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 08:45:00.939
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 08:45:00.951
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 08:45:00.952
+!MESSAGE Boot project ADDED: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 09:21:50.110
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-31 09:23:10.408
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-31 09:23:10.409
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-31 09:23:10.410
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-31 09:23:10.411
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-31 09:23:10.416
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-07-31 09:23:10.418
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 09:27:55.176
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 09:28:54.544
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 09:30:09.643
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 09:30:41.496
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 09:31:16.175
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:14:12.508
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:19:31.268
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:24:44.721
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:25:04.858
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:25:59.833
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:30:43.835
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:31:00.867
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:31:41.438
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:32:22.714
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:33:46.755
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:34:30.823
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:41:05.179
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:42:10.979
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 10:42:37.244
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.jface 2 0 2023-07-31 10:48:52.551
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-31 10:48:52.551
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:07:05.613
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:20:13.230
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:29:37.612
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:46:56.183
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:48:26.515
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:51:06.075
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:51:08.214
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:51:47.819
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:51:56.801
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 11:52:39.302
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 12:11:38.594
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 12:12:19.147
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 12:13:36.289
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 12:46:02.640
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 12:46:22.953
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 12:46:40.251
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 15:17:53.254
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-31 15:30:46.834
+!MESSAGE Marker id 855 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BootMyweb/src/main/resources/mapper/ProductMapper.xml)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-07-31 15:30:46.835
+!MESSAGE Marker id 855 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-31 15:30:46.836
+!MESSAGE Marker id 855 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BootMyweb/src/main/resources/mapper/ProductMapper.xml)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:970)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1048)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2107)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2786)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1971)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1977)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1904)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1443)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-07-31 15:30:46.836
+!MESSAGE Marker id 855 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:970)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1048)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:427)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2107)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2786)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1971)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1977)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:684)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1947)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1904)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1398)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:365)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1359)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1482)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1443)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 16:14:06.834
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 16:15:05.974
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 16:15:32.043
+!MESSAGE Classpath changed for project: BootMyweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-31 16:15:51.130
+!MESSAGE Classpath changed for project: BootMyweb
+!SESSION 2023-08-01 08:27:10.810 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-08-01 08:27:12.781
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-08-01 08:27:25.704
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-01 08:27:25.704
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2023-08-01 08:27:29.619
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-01 08:27:29.619
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-01 08:27:30.592
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 08:27:31.323
+!MESSAGE Boot project ADDED: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 08:27:31.323
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 08:27:31.325
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 08:27:31.326
+!MESSAGE Boot project ADDED: BootMyweb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-01 08:27:31.377
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user\Desktop\course\springboot\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user/Desktop/course/springboot/workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1690846051376
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 08:27:31.377
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-01 08:27:31.417
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13772
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-08-01 08:27:31.451
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 09:25:25.429
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 09:26:53.597
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 10:16:14.763
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 10:17:50.966
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 10:18:20.566
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 10:19:17.866
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 10:22:57.126
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 10:27:43.823
+!MESSAGE Classpath changed for project: BootBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-08-01 10:32:10.663
+!MESSAGE Classpath changed for project: BootBasic

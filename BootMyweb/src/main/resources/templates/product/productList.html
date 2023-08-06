@@ -100,7 +100,7 @@
 													<a href="#" class="normal_btn modalOn">이미지수정</a>													
 												</td>
 												<td>[[${vo.prod_id}]]</td>
-												<td>.....</td>
+												<td>[[${vo.category_nav == null? '카테코리 없음' : vo.category_nav}]]</td>
 
 												<td>
 													<a title="상세보기(클릭)" th:href="@{productDetail(prod_id=${vo.prod_id}) }">
@@ -210,6 +210,7 @@
 						<!--미리보기 폼-->
 						<div class="filebox preview-image">
 							<!--1 -->
+							<!--
 							<div class="left">
 									<span>추가이미지</span>
 									<label class="upload-display" for="a_file">
@@ -250,6 +251,7 @@
 									<input type="hidden" value="">
 									<button type="button" class="normal_btn" style="display: block;">삭제</button>
 							</div>
+							-->
 
 					</div>
 					</div>
@@ -296,7 +298,54 @@
 	
 	
 
+<script th:inline="javascript">
+	//모달창에 이미지 처리하기
+	//비동기적으로 파일데이터를 가져옴
+	//prod_id요청을 보내서 데이터베이스 조회
+	//callback으로 데이터를 받고
+	//img태그를 동적으로 생성
+	$(".modalOn").click( function() {
+		//prod_id가 필요
+		var pk = $(event.target).closest("td").next().html();
 
+		$.ajax({
+			url: "../getAjaxImg",
+			type: "post",
+			contentType: "application/json", //보낼데이터 형식
+			data: JSON.stringify( {prod_id: pk} ),
+			success: function(data) {
+				console.log(data);
+				
+				var arr = ['a', 'b', 'c'];
+				
+				var str = "";
+				for(var i = 0; i < data.length; i++){
+					
+					str += '<div class="left">';
+					str += '<span>추가이미지</span>';
+					str += '<label class="upload-display" for="' + arr[i] + '_file">';
+					str += '<span class="upload-thumb-wrap">';
+					str += '<img class="upload-thumb" src="../display?filename='+ data[i].filename + '&filepath=' + data[i].filepath + '&uuid=' + data[i].uuid +'">';
+					str += '</span>';
+					str += '</label>';
+					str += '<input class="upload-name" value="파일선택" disabled="disabled">';
+					str += '<input type="file" name="file" id="' + arr[i] + '_file" class="upload-hidden">';
+					str += '<input type="hidden" value="' + data[i].upload_no +'">';
+					str += '<input type="hidden" value="">';
+					str += '<button type="button" class="normal_btn" style="display: block;">삭제</button>';
+					str += '</div>';
+				}
+				
+				$(".filebox").html(str);
+				modalOn(); //이미지 처리후 modalOn 오픈
+				
+			},
+			error: function(status, error) {
+				console.log(status);
+			}
+		})
+	})
+</script>
 
 
 

@@ -142,6 +142,10 @@ public class RestBasicController {
 	public ResponseEntity<SimpleVO> createResponse() {
 		
 		SimpleVO vo = new SimpleVO(1, "홍", "길동", LocalDateTime.now());
+
+		//0st
+		//ResponseEntity<SimpleVO> result = new ResponseEntity<>(HttpStatus.OK); //상태코드
+		
 		//1st
 		//ResponseEntity<SimpleVO> result = new ResponseEntity<>(vo, HttpStatus.OK); //데이터, 상태코드
 		
@@ -168,6 +172,7 @@ public class RestBasicController {
 	*/
 	
 	//선생님 풀이
+	@CrossOrigin("*")
 	@GetMapping("/api/v1/getData/{num}/{name}")
 	public ResponseEntity<SimpleVO> getFetch(@PathVariable("num") int num,
 											 @PathVariable("name") String name) {
@@ -205,7 +210,8 @@ public class RestBasicController {
 	*/
 	
 	//선생님 풀이
-	@CrossOrigin("http://localhost:3000")
+	//@CrossOrigin({ "http://localhost:3000", "~~~~~" })
+	@CrossOrigin("*") //모든서버에 대한 요청을 허용한다.
 	@PostMapping(value="/api/v1/getInfo", consumes = "application/json")
 	public ResponseEntity<List<SimpleVO>> getFetch2(@RequestBody Map<String, Object> map){
 		

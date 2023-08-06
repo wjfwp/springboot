@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h3>파일 업로드하기</h3>
+
+	<h3>단일파일 업로드</h3>
+	<!-- 꼭꼮꼮꼮꼮꼮꼮꼮꼮꼮꼮꼮꼮  enctype="multipart/form-data" -->
+	<form action="upload_ok" method="post" enctype="multipart/form-data">
+		<input type="file" name="file">
+		<input type="submit" value="파일올리기">
+	</form>
+	
+	
+	
+	<h3>복수태그를 사용한 다중파일 업로드 - List(MultipartFile) </h3>
+	<form action="upload_ok2" method="post" enctype="multipart/form-data">
+		<input type="file" name="file">
+		<input type="file" name="file">
+		<input type="file" name="file">
+		<input type="submit" value="파일올리기">
+	</form>
+	
+	
+	<h3>multiple 옵션을 사용한 다중파일 업로드</h3>
+	<form action="upload_ok3" method="post" enctype="multipart/form-data">
+		
+		<input type="file" name="file" multiple="multiple">
+		
+		<input type="submit" value="파일올리기">
+	</form>
+	
+	
+	
+	
+	
+	
+	<div>
+		<h3>비동기방식으로 처리하기</h3>
+		<input type="file" name="file_a">
+		<button onclick="upload()">비동기업로드하기</button>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script>
+		
+		function upload() {
+			
+			//1.파일데이터 얻기
+			var file = $("input[name='file_a']");
+			
+			console.log(file); //jquery 함수
+			console.log(file[0]); //input태그
+			console.log(file[0].files ); //파일리스트
+			console.log(file[0].files[0] ); //파일객체 => 서버로 전송
+			
+			//2. 폼객체
+			var formData = new FormData();
+			formData.append("file", file[0].files[0] ); //키, 데이터
+			
+			//3. 전송
+			$.ajax({
+				url: "upload_ok4",
+				type: "post",
+				data: formData, //폼데이터
+				contentType: false, //multipart/form-data형식으로 자동선언
+				processData: false, //jquery가 폼데이터를 쿼리스트링으로 담게되는데, 자동으로 변경되는것을 방지
+				success: function(data) {
+					console.log(data);
+				},
+				error: function(status, err) {
+					console.log(status);
+				}
+			
+			})
+			
+			
+		}	
+	
+	</script>
+	
+	
+	
+	<hr>
+	<h3>이미지 불러오기(컨트롤러로 레스트 요청)</h3>
+	<img src="display?filename=img4.png&filepath=20230804&uuid=0a3eb76c-2d97-4aa2-a986-0b53ba069474">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

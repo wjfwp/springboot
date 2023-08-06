@@ -12,9 +12,9 @@
 	
 	<button id="getJSON">포스트방식</button>
 	
-	<button id="getV1Data">실습1</button>
+	<button id="getV1Data">겟 실습</button>
 	
-	<button id="getV1Info">실습1</button>
+	<button id="getV1Info">포스트 실습</button>
 	
 	<button id="getFetch">선생님풀이</button>
 	
@@ -37,9 +37,7 @@
 			
 			fetch("/getJSON", {
 				method :"post",
-				headers : {
-					"Content-Type" : "application/json"
-				},
+				headers : {"Content-Type" : "application/json"},
 				body : JSON.stringify({"son": "1", "first":"홍길동", "last" :"이순신"})
 			})
 			.then( response => response.json() )
@@ -60,9 +58,7 @@
 			
 			fetch("/api/v1/getInfo", {
 				method : "post",
-				headers : {
-					"Content-Type" : "application/json"
-				},
+				headers : {"Content-Type" : "application/json"},
 				body : JSON.stringify({"num" : "1", "name" : "오리"})
 			})
 			.then( response => response.json() )

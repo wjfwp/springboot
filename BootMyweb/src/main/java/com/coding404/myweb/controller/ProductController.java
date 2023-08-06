@@ -1,6 +1,8 @@
 package com.coding404.myweb.controller;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -10,6 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.coding404.myweb.command.ProductVO;
@@ -71,11 +74,27 @@ public class ProductController {
 	//post방식
 	//등록요청
 	@PostMapping("/registForm")
-	public String registForm(ProductVO vo, RedirectAttributes ra) {
+	public String registForm(ProductVO vo, RedirectAttributes ra,
+							 @RequestParam("file") List<MultipartFile> list //업로드
+							 ) {
+		
+		//1. 빈객체검사
+		list = list.stream().filter( t -> t.isEmpty() == false).collect( Collectors.toList() );
+		//2. 확장자검사
+		for(MultipartFile file : list) {
+			System.out.println( file.getContentType() );
+			
+			if(file.getContentType().contains("image") == false) {
+				ra.addFlashAttribute("msg", "jpg, jpeg, png 이미지 파일만 등록이 가능합니다.");
+				return "redirect:/product/productList"; //이미지가 아니라면 list 목록으로
+			}
+			
+		}
+		//3. 파일을 처리하는 작업은 service로 위임 => 애시당초에 controller Request객체를 받고 service위임전략.
 		
 		//System.out.println(vo.toString());
 		
-		int result = productService.productRegist(vo);//1이면 성공, 0이면 실패
+		int result = productService.productRegist(vo, list);//1이면 성공, 0이면 실패
 		String msg = result == 1 ? "등록 되었습니다" : "등록 실패. 관리자에게 문의하세요";
 		
 		ra.addFlashAttribute("msg", msg );

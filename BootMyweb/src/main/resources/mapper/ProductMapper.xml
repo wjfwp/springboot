@@ -35,16 +35,15 @@
   		selectKey절 안에는 select문장을 적는데, 반드시 단일행이 나와야 함.
   		
   		insert를 하기 전에 실행 or insert를 한 후에 실행
-  		order = "BEFORE"  order="AFTER"
+  		ㄴorder = "BEFORE"  order="AFTER"
   		
   		keyProperty
-  		vo객체 전달, select한 결과를 맵핑할 setter메서드명
+  		ㄴvo객체에 전달, select한 결과를 맵핑할 setter메서드명
   		
   		resultType
-  		select한 결과에 대한 반환타입
+  		ㄴselect한 결과에 대한 반환타입
   	-->
   	<insert id="productFileRegist">
-  		
   		<selectKey order="BEFORE" keyProperty="prod_id" resultType="int">
   			select max(prod_id) as prod_id from product where prod_writer = #{prod_writer}
   		</selectKey>

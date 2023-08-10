@@ -78,28 +78,23 @@ public class ProductController {
 							 @RequestParam("file") List<MultipartFile> list //업로드
 							 ) {
 		
-		//1. 빈객체검사
+		//1. 비어있는 객체검사
 		list = list.stream().filter( t -> t.isEmpty() == false).collect( Collectors.toList() );
 		//2. 확장자검사
 		for(MultipartFile file : list) {
-			System.out.println( file.getContentType() );
-			
+			System.out.println( file.getContentType() ); //출력:image/png
 			if(file.getContentType().contains("image") == false) {
 				ra.addFlashAttribute("msg", "jpg, jpeg, png 이미지 파일만 등록이 가능합니다.");
 				return "redirect:/product/productList"; //이미지가 아니라면 list 목록으로
 			}
-			
 		}
+		
 		//3. 파일을 처리하는 작업은 service로 위임 => 애시당초에 controller Request객체를 받고 service위임전략.
 		
 		//System.out.println(vo.toString());
-		
 		int result = productService.productRegist(vo, list);//1이면 성공, 0이면 실패
 		String msg = result == 1 ? "등록 되었습니다" : "등록 실패. 관리자에게 문의하세요";
-		
 		ra.addFlashAttribute("msg", msg );
-		
-		
 		
 		return "redirect:/product/productList";
 	}

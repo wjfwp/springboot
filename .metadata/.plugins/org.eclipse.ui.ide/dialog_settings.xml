@@ -45,4 +45,12 @@
 			<item value="C:\Users\user\Desktop\course\springboot\workspace\BootMyweb"/>
 		</list>
 	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="186"/>
+		<item key="DIALOG_Y_ORIGIN" value="336"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
 </section>

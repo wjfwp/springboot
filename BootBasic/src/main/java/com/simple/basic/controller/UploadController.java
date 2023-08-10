@@ -34,19 +34,14 @@ public class UploadController {
 	
 	//폴더생성함수
 	public String makeFolder() {
-		
 		String path = LocalDate.now().format( DateTimeFormatter.ofPattern("yyyyMMdd")  );
-		
 		File file = new File(uploadPath + "/" + path);
 		
 		if(file.exists() == false ) { //존재하면 true, 존재하지 않으면 false
 			file.mkdirs();
 		}
-		
 		return path; //날짜폴더명 반환
 	}
-	
-	
 	
 	
 	@GetMapping("/upload")
@@ -73,6 +68,7 @@ public class UploadController {
 		
 		//System.out.println(originName);
 		//System.out.println(size);
+		
 		//데이터베이스 추후에 저장
 		System.out.println("실제파일명:" + filename);
 		System.out.println("난수값:" + uuid);
@@ -97,10 +93,14 @@ public class UploadController {
 	@PostMapping("/upload_ok2")
 	public String upload_ok2(@RequestParam("file") List<MultipartFile> list) {
 		
-		//빈 file객체는 제외, 새로운리스트 생성
+		//비어있는 file객체는 제외, 새로운리스트 생성
 		list = list.stream().filter( f -> f.isEmpty() == false ).collect( Collectors.toList() );
+		//System.out.println( file.isEmpty() ); //file이 비어있으면 true, 아니면 false
+
 		
 		for(MultipartFile file : list ) {
+			
+			//if( file.isEmpty() ) continue; //값이 비어있다면 아래 작업을 하지않고, 다음 작업으로 넘어가겠다.
 			
 			//파일이름을 받습니다.
 			String originName = file.getOriginalFilename();
@@ -115,8 +115,8 @@ public class UploadController {
 			//세이브할 경로
 			String savepath = uploadPath + "/" + filepath + "/" + uuid + "_" + filename;
 			
-			//System.out.println(originName);
-			//System.out.println(size);
+			System.out.println(originName);
+			System.out.println(size);
 			//데이터베이스 추후에 저장
 			System.out.println("실제파일명:" + filename);
 			System.out.println("난수값:" + uuid);

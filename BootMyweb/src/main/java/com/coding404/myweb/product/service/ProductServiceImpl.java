@@ -38,7 +38,8 @@ public class ProductServiceImpl implements ProductService {
 		return path; //날짜폴더명 반환
 	}
 	/////////////////////////////////////////////
-	//하나의 메서드에서 여러 CRUD작업이 일어나는 경우에 한 부분이 에러 발생하면 그 에러를 처리하고, 롤백처리를 대신한다.
+	//@Transactional(rollbackFor = Exception.class)
+	//ㄴ하나의 메서드에서 여러 CRUD작업이 일어나는 경우에 한 부분이 에러 발생하면 그 에러를 처리하고, 롤백처리를 대신한다.
 	@Override
 	@Transactional(rollbackFor = Exception.class)
 	public int productRegist(ProductVO vo, List<MultipartFile> list) {
@@ -47,7 +48,6 @@ public class ProductServiceImpl implements ProductService {
 		
 		//업로드 처리
 		for(MultipartFile file : list ) {
-			
 			//파일이름을 받습니다.
 			String originName = file.getOriginalFilename();
 			//브라우저 별로 파일의 경로가 다를 수 있기 때문에 \\ 기준으로 파일명만 잘라서 다시 저장
@@ -88,11 +88,7 @@ public class ProductServiceImpl implements ProductService {
 														   .prod_writer( vo.getProd_writer() )
 														   .build()
 											);
-														   
-		
 		} //end for
-		
-		
 		return result;
 	}
 
